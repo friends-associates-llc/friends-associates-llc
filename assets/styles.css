@@ -409,3 +409,91 @@ nav a {
     color: var(--royal-gold);
     font-weight: bold;
     }
+    .contact-section {
+      text-align: center;
+      padding: 2.5rem 2rem;
+    }
+
+    .contact-section h2 {
+      font-size: 2.4rem;
+      color: var(--rich-navy);
+      margin-bottom: 1rem;
+    }
+
+    .contact-section p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: #333;
+      margin: 0.75rem auto;
+    }
+
+    .contact-section a {
+      color: var(--royal-gold);
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .contact-section a:hover {
+      color: var(--rich-navy);
+      text-decoration: underline;
+    }
+
+    .contact-info {
+      max-width: 600px;
+      margin: 0 auto 2rem auto;
+      padding: 1rem;
+      background-color: var(--soft-cream);
+      border-left: 6px solid var(--royal-gold);
+      border-radius: 6px;
+    }
+
+    .contact-image {
+      max-width: 100%;
+      margin-top: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+    }
+
+    .contact-form {
+      max-width: 600px;
+      margin: 3rem auto;
+      text-align: left;
+    }
+
+    .contact-form label {
+      display: block;
+      margin: 0.75rem 0 0.25rem;
+      color: var(--rich-navy);
+      font-weight: bold;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 0.6rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-family: Georgia, serif;
+      font-size: 1rem;
+    }
+
+    .contact-form textarea {
+      resize: vertical;
+      height: 120px;
+    }
+
+    .contact-form button {
+      margin-top: 1rem;
+      background-color: var(--royal-gold);
+      color: var(--rich-navy);
+      padding: 0.75rem 1.5rem;
+      font-weight: bold;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .contact-form button:hover {
+      background-color: var(--rich-navy);
+      color: var(--royal-gold);
+    }

@@ -3,16 +3,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link rel="icon" href="assets/logo.png" type="image/png">
   <title>Contact - Friends Associates</title>
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
-<header>
+  <header>
     <div class="header-container">
       <img src="assets/logo.png" alt="Friends Associates Logo">
       <h1>Friends Associates LLC</h1>
     </div>
   </header>
+
   <nav>
     <a href="index.html">Home</a>
     <a href="about.html">Who We Are</a>
@@ -20,14 +22,39 @@
     <a href="founder.html">Founder</a>
     <a href="contact.html">Contact</a>
   </nav>
-  <main>
+
+  <main class="contact-section">
     <h2>Get In Touch</h2>
-    <p>Email: <a href="mailto:info@friends-associates.com">info@friends-associates.com</a></p>
-    <p>Phone: +1 (123) 456-7890</p>
-    <p>Office: 123 Jewelers Lane, New York, NY</p>
-    <p>Follow us on <a href="https://www.linkedin.com" target="_blank">LinkedIn</a></p>
-    <img src="assets/contact.jpg" alt="Contact Office" class="responsive">
+    <p>We’d love to hear from you. Whether you're a retail partner, artisan, or client — our team is ready to connect and assist.</p>
+
+    <div class="contact-info">
+      <p><strong>Email:</strong> <a href="mailto:info@friends-associates.com">info@friends-associates.com</a></p>
+      <p><strong>Phone:</strong> +1 (123) 456-7890</p>
+      <p><strong>Office:</strong> 123 Jewelers Lane, New York, NY</p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com" target="_blank">Follow us on LinkedIn</a></p>
+    </div>
+
+    <img src="assets/contact.jpg" alt="Contact Office" class="contact-image">
+
+    <div class="contact-form">
+      <form action="mailto:info@friends-associates.com" method="POST" enctype="text/plain">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Submit Message</button>
+      </form>
+    </div>
   </main>
+
   <footer>
     <p>&copy; 2025 Friends Associates LLC. All rights reserved.</p>
   </footer>
