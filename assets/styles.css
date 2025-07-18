@@ -497,3 +497,8 @@ nav a {
       background-color: var(--rich-navy);
       color: var(--royal-gold);
     }
+    nav a.active {
+    border-bottom: 2px solid var(--royal-gold);
+    color: var(--soft-cream); /* Optional: to match hover look */
+    padding-bottom: 0.25rem;
+    }
