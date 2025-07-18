@@ -226,10 +226,15 @@ nav a {
 
     .team-photo {
       margin-top: 2rem;
-      border-radius: 12px;
-      max-width: 100%;
-      height: auto;
-      box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    width: 100%;
+    max-width: 800px;
+    height: 500px; /* ✅ Reduce height */
+    object-fit: cover; /* ✅ Crop image nicely instead of squishing */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
     }
     .home-section {
       text-align: center;
@@ -502,3 +507,18 @@ nav a {
     color: var(--soft-cream); /* Optional: to match hover look */
     padding-bottom: 0.25rem;
     }
+    .hero-banner {
+    width: 100vw;
+    max-width: 100%;
+    overflow: hidden;
+    margin-top: 2rem;
+    }
+
+    .hero-banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    aspect-ratio: 16/3.5; /* less tall than 16/6 */
+    }
+
