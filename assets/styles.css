@@ -521,4 +521,11 @@ nav a {
     object-fit: cover;
     aspect-ratio: 16/3.5; /* less tall than 16/6 */
     }
-
+    .subtitle {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: var(--royal-gold);
+    margin-top: 0.5rem;
+    text-align: center;
+    max-width: 600px;
+    }
