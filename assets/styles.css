@@ -2,6 +2,7 @@
     --rich-navy: #0f1921;
     --royal-gold: #c6a75e;
     --soft-cream: #f6f3eb;
+    --soft-gold: #e9e0cc;
   }
 
   body {
@@ -95,7 +96,7 @@ nav a {
   padding: 2.5rem 2rem;
   max-width: 960px;
   margin: 2rem auto 0 auto; /* <-- add top margin to push it down */
-  background-color: white;
+  /* background-color: white; */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
   position: relative;
@@ -162,7 +163,7 @@ nav a {
     }
 
     .founder-highlight {
-      background-color: var(--soft-cream);
+      background-color: var(--soft-gold);
       padding: 1.5rem;
       margin: 2rem auto;
       border-left: 6px solid var(--royal-gold);
@@ -213,7 +214,7 @@ nav a {
     }
 
     .about-highlight {
-      background-color: var(--soft-cream);
+      background-color: var(--soft-gold);
       padding: 1.5rem;
       margin-top: 2rem;
       border-left: 6px solid var(--royal-gold);
@@ -268,7 +269,7 @@ nav a {
     }
 
     .home-highlight {
-      background-color: var(--soft-cream);
+      background-color: var(--soft-gold);
       padding: 1.5rem;
       margin: 2rem auto;
       border-left: 6px solid var(--royal-gold);
@@ -402,7 +403,7 @@ nav a {
     }
 
     .services-highlight {
-      background-color: var(--soft-cream);
+      background-color: var(--soft-gold);
       padding: 1.5rem;
       margin: 2rem auto;
       border-left: 6px solid var(--royal-gold);
@@ -447,7 +448,7 @@ nav a {
       max-width: 600px;
       margin: 0 auto 2rem auto;
       padding: 1rem;
-      background-color: var(--soft-cream);
+      background-color: var(--soft-gold);
       border-left: 6px solid var(--royal-gold);
       border-radius: 6px;
     }
